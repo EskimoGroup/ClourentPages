@@ -1,0 +1,518 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="日租房,短租房,Clourent,短租公寓,酒店式公寓,青年旅舍,日租"/>
+    <meta name="description" content="Clourent描述XXXXXXXXX" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
+    <title>Clourent-XXXXXXXXXXXXX</title><meta content="no-transform " http-equiv="Cache-Control" />
+    <meta content="format=html5; url=http://m.xiaozhu.com/" http-equiv="mobile-agent" />
+    <link rel="stylesheet" type="text/css" href="css/xzcss.css" />
+</head>
+<body>
+<div>
+
+    <div class="head_bar">
+        <div class="head_bar_con">
+            <a href="" class="logo_index">Clourent</a>
+            <span class="slogan_v2">XXXXXX</span>
+            <ul class="nav_R">
+                <li><a rel="nofollow" href="" class="logindialog">朋友圈</a></li>
+                <li>&middot;</li>
+                <li><a rel="nofollow" title="XXXXXXXXX" class="show-register-box" href="">注册</a></li>
+                <li>&middot;</li>
+                <li><a rel="nofollow" href="" class="logindialog">登录</a></li>
+                <li>&middot;</li>
+                <li class="current">
+                    <a href="#ongo" class="openTri_R marginR10">租房指南</a>
+                    <div class="head_pop width_58">
+                        <div class="pop_column">
+                            <span><a class="fl" href="">房客指南</a><a class="fr" href="">房东指南</a></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#ongo"  class="icon_iphone">App下载</a>
+                    <div class="head_pop w_120 top40">
+                        <div><a href="" target="_blank"><img src="images/code_pic.png" alt="Clourent" title="Clourent"/></a></div>
+                        <a href="" target="_blank">了解更多</a>
+                    </div>
+                </li>
+                <li><a rel="nofollow" href="" class="btn_free show-register-box">发布房间</a></li>
+
+            </ul>
+        </div>
+        <div class="head_bar_con2">
+            <ul class="nav_R">
+                <li><a rel="nofollow" href="" class="btn_free show-register-box">找室友</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="search_index">
+        <div class="search_column">
+            <span class="icon_place" id="suggest_icon"></span>
+            <input class="ipt_search" type="text" id="searchcity" name="searchcity" autocomplete="off" value="请选择城市或目的地" />
+            <div id="suggest" class="ac_results2 " style="display:none;"></div>
+            <div class="sug  ">
+                <div class="sug-tit">
+                    <span id="hotcity" value="hotcity" class="sug-hover">热门</span>
+                    <span id="a_d" value="a_b_c_d">ABCD</span>
+                    <span id="e_j" value="e_f_g_h_j">EFGHJ</span>
+                    <span id="k_n" value="k_l_m_n">KLMN</span>
+                    <span id="p_w" class="width64" value="p_q_r_s_t_w">PQRSTW</span>
+                    <span id="x_z" class="nobor width43" value="x_y_z">XYZ</span>
+                </div>
+                <div id="con_one_1" class="sug-city">
+                </div>
+            </div>
+            <input type="hidden" name="citydomain" id="citydomain" value=""/>
+            <input type="hidden" name="suggestion_citydomain" id="suggestion_citydomain" value=""/>
+            <input type="hidden" name="searchkey" id="searchkey" value=""/>
+            <input type="hidden" name="landmarkid" id="landmarkid" value=""/>
+            <input type="hidden" name="landmarktype" id="landmarktype" value=""/>
+            <input type="hidden" name="defaulturl" id="defaulturl" value=""/>
+            <div class="error_tip" style="display: none;" id="tip_searchcity"></div>
+        </div>
+        <div class="search_column">
+            <span class="icon_date" id="calendar_btn_s"></span>
+            <input class="ipt_search" type="text" readonly="" id="startenddate" name="startenddate"   value="入住日期" />
+            <input type="hidden" name="startdate" id="startdate" value=""/>
+            <input type="hidden" name="enddate" id="enddate" value=""/>
+            <div id="calendar-box" style="display:none"> </div>
+        </div>
+        <div class="search_column">
+            <span class="icon_date" id="calendar_btn_s"></span>
+            <input class="ipt_search" type="text" readonly="" id="startenddate" name="startenddate"   value="退房日期" />
+            <input type="hidden" name="startdate" id="startdate" value=""/>
+            <input type="hidden" name="enddate" id="enddate" value=""/>
+            <div id="calendar-box" style="display:none"> </div>
+        </div>
+        <div class="">
+            <select id="guests" name="guests">
+                <option value="1">1位房客</option>
+                <option value="2">2位房客</option>
+                <option value="3">3位房客</option>
+                <option value="4">4位房客</option>
+                <option value="5">5位房客</option>
+                <option value="6">6位房客</option>
+                <option value="7">7位房客</option>
+                <option value="8">8位房客</option>
+                <option value="9">9位房客</option>
+                <option value="10">10位房客</option>
+                <option value="11">11位房客</option>
+                <option value="12">12位房客</option>
+                <option value="13">13位房客</option>
+                <option value="14">14位房客</option>
+                <option value="15">15位房客</option>
+                <option value="16">16+位房客</option>
+            </select>
+        </div>
+        <input class="btn_pink_search" type="button" value="搜索小猪短租" onclick="javascript:searchCity('home');" />
+    </div>
+
+
+    <div class="banner" style="height:850px;">
+        <ul class="banner_ul">
+            <li class="banner_img" style="display:block">
+                <a href="" target="_blank" >
+                    <img src="images/3,0,62,2543,1599,700,023c2cde.jpg"  name="indeximage"  />
+                </a>
+            </li>
+            <li style="display:none">
+                <a href="" target="_blank" >
+                    <img lazyloadsrc="images/3,0,36,2984,1600,700,f9b0284e.jpg"  name="indeximage"  />
+                </a>
+            </li>
+
+            <li style="display:none">
+                <a href="" target="_blank" >
+                    <img lazyloadsrc="images/3,0,17,2925,1600,700,e0a80799.jpg"  name="indeximage"  />
+                </a>
+            </li>
+
+            <li style="display:none">
+                <a href="" target="_blank" >
+                    <img lazyloadsrc="images/3,0,31,2844,1600,700,f6995876.jpg"  name="indeximage"  />
+                </a>
+            </li>
+
+            <li style="display:none">
+                <a href="" target="_blank" >
+                    <img lazyloadsrc="images/3,0,84,2906,1600,700,9726c289.jpg"  name="indeximage"  />
+                </a>
+            </li>
+
+            <li style="display:none">
+                <a href="" target="_blank" >
+                    <img lazyloadsrc="images/3,0,63,2954,1600,700,2801d85e.jpg"  name="indeximage"  />
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+    <span class="pics_pre" onclick="pre_pic()"></span>
+    <span class="pics_next" onclick="next_pic()"></span>
+    <span class="bg_up"></span>
+    <span class="bg_down"></span>
+</div>
+    <div class="index_ad1"  style="background-color:#000000;" >
+        <a id="indexAdPic"  href="http://cd.xiaozhu.com" target="_blank">
+            <img src="images/cd_zhinanmao.png" />         </a>
+    </div>
+
+
+    <div class="rooms_show" id="load_Ajax_IndexRecommend">
+        <div class="index_T">
+            <h1>热门城市推荐</h1>
+            <span>XXXXXXXXXXXXX </span>
+        </div>
+        <div class="content_v2">
+            <ul class="rooms_show_ul">
+                <li>     <img class="img_room"  lazy_src="http://image.xiaozhustatic1.com/00,400,326,2/2,0,99,462,1800,1200,4b84111d.jpg" alt="北影北医三院地铁十号线西土城站温馨独立两居" width="400" height="326" src="images/lazy_loadimage_gray.png" />
+                    <span class="img_upCover"></span>
+                    <div class="rooms_intro">
+                        <img class="img_user_fd" lazy_src="http://image.xiaozhustatic2.com/22/1,0,30,4607,467,467,1e0b1a0b.jpg" />
+                        <span class="room_name">石大双的家 - 北京</span>
+                        <span class="index_price"><em class="bigFont">¥</em>450</span>
+                    </div>
+                    <a href="http://bj.xiaozhu.com/fangzi/832949139.html" target="_blank" class="room_hover"></a>
+                </li>                                 <li>     <img class="img_room"  lazy_src="http://image.xiaozhustatic3.com/00,400,326,2/2,0,88,2630,1800,1200,db5cfff4.jpg" alt="CBD国贸双井地铁10号线双井站 精装大一居" width="400" height="326" src="images/lazy_loadimage_gray.png" />
+                <span class="img_upCover"></span>
+                <div class="rooms_intro">
+                    <img class="img_user_fd" lazy_src="http://image.xiaozhustatic1.com/22/2,0,47,2242,375,375,7def02f0.jpg" />
+                    <span class="room_name">乔小姐的家的家 - 北京</span>
+                    <span class="index_price"><em class="bigFont">¥</em>389</span>
+                </div>
+                <a href="http://bj.xiaozhu.com/fangzi/1159389805.html" target="_blank" class="room_hover"></a>
+            </li>                                                                                         <li class="nomargin">         <img class="img_room" lazy_src="/images/index_city/city_xa.jpg"  width="400" height="326" src="images/lazy_loadimage_gray.png"/>
+                <div class="rooms_intro city_top">
+                    <span class="index_price">1008<em class="bigFont">套</em></span>
+                    <span class="room_name">千年古都  ·  西安</span>
+                </div>
+                <a href="http://xa.xiaozhu.com/" class="room_hover" target="_blank"></a>
+            </li>         <li>         <img class="img_room city_big" lazy_src="images/index_city/city_xm_big.jpg" width="820" height="326" src="images/lazy_loadimage_gray.png"/>
+                <div class="rooms_intro city_big">
+                    <span class="room_name">美丽鹭岛  ·  厦门</span><br/>
+                    <span class="index_price">621<em class="bigFont">套</em></span>
+                </div>
+                <a href="http://xm.xiaozhu.com/" class="room_hover" target="_blank"></a>
+            </li>
+
+                <li class="nomargin">     <img class="img_room"  lazy_src="http://image.xiaozhustatic2.com/00,400,326,2/3,0,62,719,1800,1200,928d6750.jpg" alt="市中心凤起路两居室整租" width="400" height="326" src="images/lazy_loadimage_gray.png" />
+                    <span class="img_upCover"></span>
+                    <div class="rooms_intro">
+                        <img class="img_user_fd" lazy_src="http://image.xiaozhustatic3.com/22/2,0,74,646,260,260,cf243fcd.jpg" />
+                        <span class="room_name">C_先生的家 - 杭州</span>
+                        <span class="index_price"><em class="bigFont">¥</em>358</span>
+                    </div>
+                    <a href="http://hz.xiaozhu.com/fangzi/1239098035.html" target="_blank" class="room_hover"></a>
+                </li>                                                 <li>     <img class="img_room"  lazy_src="http://image.xiaozhustatic1.com/00,400,326,2/2,0,33,2655,1800,1198,523eda53.jpg" alt="英伦风清新民宿 泰晤士小镇—InThames" width="400" height="326" src="images/lazy_loadimage_gray.png" />
+                <span class="img_upCover"></span>
+                <div class="rooms_intro">
+                    <img class="img_user_fd" lazy_src="http://image.xiaozhustatic2.com/22/2,0,37,2060,357,357,b1b80164.jpg" />
+                    <span class="room_name">Aimee_pan的家 - 上海</span>
+                    <span class="index_price"><em class="bigFont">¥</em>520</span>
+                </div>
+                <a href="http://sh.xiaozhu.com/fangzi/1152003105.html" target="_blank" class="room_hover"></a>
+            </li>                                                 <li>     <img class="img_room"  lazy_src="http://image.xiaozhustatic3.com/00,400,326,2/1,0,24,3030,825,550,5a22cfc6.jpg" alt="二号线安定门 东直门 积水潭 欧式大主卧" width="400" height="326" src="images/lazy_loadimage_gray.png" />
+                <span class="img_upCover"></span>
+                <div class="rooms_intro">
+                    <img class="img_user_fd" lazy_src="http://image.xiaozhustatic1.com/22/1,0,1,6400,375,375,e741a3b9.jpg" />
+                    <span class="room_name">苏苏的家 - 北京</span>
+                    <span class="index_price"><em class="bigFont">¥</em>239</span>
+                </div>
+                <a href="http://bj.xiaozhu.com/fangzi/78363001.html" target="_blank" class="room_hover"></a>
+            </li>                                                 <li class="nomargin">         <img class="img_room" lazy_src="/images/index_city/city_nj.jpg"  width="400" height="326" src="images/lazy_loadimage_gray.png"/>
+                <div class="rooms_intro city_top">
+                    <span class="index_price">278<em class="bigFont">套</em></span>
+                    <span class="room_name">金陵春梦  ·  南京</span>
+                </div>
+                <a href="http://nj.xiaozhu.com/" class="room_hover" target="_blank"></a>
+            </li>                                                                                                         <li>     <img class="img_room"  lazy_src="http://image.xiaozhustatic2.com/00,400,326,2/1,0,55,4782,825,550,5c1a9717.jpg" alt="长隆度假首选 地铁直达广交会 森林主题大四房" width="400" height="326" src="images/lazy_loadimage_gray.png" />
+                <span class="img_upCover"></span>
+                <div class="rooms_intro">
+                    <img class="img_user_fd" lazy_src="http://image.xiaozhustatic3.com/22/1,0,48,4792,365,365,9ccc4f35.jpg" />
+                    <span class="room_name">tiffanyzl的家 - 广州</span>
+                    <span class="index_price"><em class="bigFont">¥</em>528</span>
+                </div>
+                <a href="http://gz.xiaozhu.com/fangzi/596588701.html" target="_blank" class="room_hover"></a>
+            </li>                         <li class="nomargin">         <img class="img_room city_big" lazy_src="images/index_city/city_cq_big.jpg" width="820" height="326" src="
+                <div class="rooms_intro city_big">
+                    <span class="room_name">热辣山城  ·  重庆</span><br/>
+                    <span class="index_price">1009<em class="bigFont">套</em></span>
+                </div>
+                <a href="http://cq.xiaozhu.com/" class="room_hover" target="_blank"></a>
+            </li>    </ul>
+        </div>
+    </div>
+    <div class="index_T">
+        <h1>Clourent</h1>
+        <span>XXXXXXXXXX</span>
+    </div>
+    <div class="index_vedio">
+        <div class="vedio_column">
+            <a href="#ongo" class="vediodialogpic" name="vedio1">
+                <img lazy_src="/images/vedio_1.jpg" src="images/lazy_loadimage02.png" />
+                <span class="vedio_uper">
+                    <span class="icon_vedio"></span>
+                    欢迎来到Clourent
+                </span>
+            </a>
+        </div>
+        <div class="vedio_column">
+            <a href="#ongo" class="vediodialogpic" name="vedio2">
+                <img lazy_src="/images/vedio_2.jpg" src="images/lazy_loadimage02.png" />
+                <span class="vedio_uper">
+                    <span class="icon_vedio"></span>
+                     欢迎来到Clourent
+                </span>
+            </a>
+        </div>
+    </div>
+    <div class="index_T">
+        <h1>欢迎来到Clourent</h1>
+        <span>XXXXXXXXXXXX</span>
+    </div>
+    <div class="content_v2 marginB30">
+        <ul class="xz_ads">
+            <li><span class="xzindexad1"></span><a href="#ongo" class="ads_hover indexdialogpic" name="authentication" ></a></li>
+            <li><span class="xzindexad2"></span><a href="#ongo" class="ads_hover indexdialogpic" name="transaction" ></a></li>
+            <li><span class="xzindexad3"></span><a href="#ongo" class="ads_hover indexdialogpic" name="protection" ></a></li>
+            <li class="nobor"><span class="xzindexad4"></span><a href="#ongo" class="ads_hover indexdialogpic" name="comment"  ></a></li>
+        </ul>
+    </div>
+    <div class="index_commnet">
+        <div class="index_T">
+            <h1 class="white">世间所有的相遇都是久别重逢</h1>
+            <span class="white">房客和房东都在彼此感动着</span>
+        </div>
+        <div id="commentdiary">
+        </div>
+    </div>
+
+    <div class="foot_v2">
+        <span class="foot_T">关注我们</span>
+        <ul class="see_ul">
+            <li><a href="#ongo" class="icon_wx indexdialogpic" name="focusus"></a></li>
+            <li><a href="http://weibo.com/xzduanzu" target="_blank" class="icon_wb"></a></li>
+        </ul>
+        <ul class="foot_ul">
+            <li><a class="guide" href="http://www.xiaozhu.com/xzweb.php?op=Help_UserGuide&type=tenant" target="_blank">房客指南</a></li>
+            <li><a class="guide icon_fk" href="http://www.xiaozhu.com/xzweb.php?op=Help_UserGuide&type=landlord" target="_blank">房东指南</a></li>
+            <li>
+                <span class="guide_T">关于我们</span>
+                <a href="http://www.xiaozhu.com/aboutus" target="_blank">关于Clourent</a>
+                <a href="http://www.xiaozhu.com/contactus" target="_blank">联系我们</a>
+            </li>
+            <li>
+                <span class="guide_T">网站帮助</span>
+                <a href="http://www.xiaozhu.com/help/index" target="_blank" >帮助中心</a>
+                <a href="http://www.xiaozhu.com/sitemap.html" target="_blank">网站地图</a>
+            </li>
+            <li class="width_280">
+                <span class="guide_T">网站协议</span><br/>
+                <a href="http://www.xiaozhu.com/help/service" target="_blank">服务协议</a>
+                <a href="http://www.xiaozhu.com/help/landlordRule" target="_blank">房东规则</a>
+                <a href="http://www.xiaozhu.com/help/tenantRule" target="_blank">房客规则</a>
+                <a href="http://www.xiaozhu.com/help/auditRule" target="_blank">房源上线标准及审核细则</a>
+                <a href="http://www.xiaozhu.com/help/privacy" target="_blank">隐私保护</a>
+                <a href="http://www.xiaozhu.com/help/copyright" target="_blank">版权声明</a>
+                <a href="http://www.xiaozhu.com/help/disclaimer" target="_blank">免责声明</a>
+                <a href="http://www.xiaozhu.com/help/commentRule" target="_blank">点评发布规则</a>
+            </li>
+            <li class="width_100 bigFont">
+                <span class="guide_T">客服电话</span><br/>
+                XXX  XXX  XXXX
+            </li>
+            <li class="width_100 bigFont">
+                <span class="guide_T">客服邮箱</span><br/>
+                service@clourent.com
+            </li>
+        </ul>
+        <dl class="link_dl">
+            <dt>城市导航</dt>
+            <dd>
+                <a target="_blank" href="http://bj.xiaozhu.com/">北京短租房</a>
+                <a target="_blank" href="http://sh.xiaozhu.com/">上海短租房</a>
+                <a target="_blank" href="http://nj.xiaozhu.com/">南京短租房</a>
+                <a target="_blank" href="http://cd.xiaozhu.com/">成都短租房</a>
+                <a target="_blank" href="http://gz.xiaozhu.com/">广州短租房</a>
+                <a target="_blank" href="http://cq.xiaozhu.com/">重庆短租房</a>
+                <a target="_blank" href="http://wh.xiaozhu.com/">武汉短租房</a>
+                <a target="_blank" href="http://dl.xiaozhu.com/">大连短租房</a>
+                <a target="_blank" href="http://sanya.xiaozhu.com/">三亚短租房</a>
+                <a target="_blank" href="http://lijiang.xiaozhu.com/">丽江短租房</a>
+                <a target="_blank" href="http://tj.xiaozhu.com/">天津短租房</a>
+                <a target="_blank" href="http://xianggang.xiaozhu.com/">香港短租房</a>
+                <a target="_blank" href="http://cs.xiaozhu.com/">长沙短租房</a>
+                <a target="_blank" href="http://wx.xiaozhu.com/">无锡短租房</a>
+                <a target="_blank" href="http://km.xiaozhu.com/">昆明短租房</a>
+                <a target="_blank" href="http://jn.xiaozhu.com/">济南短租房</a>
+                <a target="_blank" href="http://xm.xiaozhu.com/">厦门短租房</a>
+                <a target="_blank" href="http://qd.xiaozhu.com/">青岛短租房</a>
+                <a target="_blank" href="http://zz.xiaozhu.com/">郑州短租房</a>
+                <a target="_blank" href="http://xa.xiaozhu.com/">西安短租房</a>
+                <a target="_blank" href="http://hz.xiaozhu.com/">杭州短租房</a>
+                <a target="_blank" href="http://sz.xiaozhu.com/">深圳短租房</a>
+                <a target="_blank" href="http://sy.xiaozhu.com/">沈阳短租房</a>
+                <a target="_blank" href="http://su.xiaozhu.com/">苏州短租房</a>
+            </dd>
+        </dl>
+        <dl class="link_dl">
+            <dt>友情链接</dt>
+            <dd>
+                <a target="_blank" href="http://www.tianxun.com/">天巡网</a>
+                <a target="_blank" href="http://nj.tuniu.com/">南京旅游网</a>
+                <a target="_blank" href="http://jiudian.kuxun.cn/">酷讯酒店预订</a>
+                <a target="_blank" href="http://www.yododo.cn/">多多驿站</a>
+                <a target="_blank" href="http://tianjin.8684.cn/">天津公交</a>
+                <a target="_blank" href="http://hangzhou.fangtoo.com/">杭州房产网</a>
+                <a target="_blank" href="http://lvyou.mangocity.com/">旅游网</a>
+                <a target="_blank" href="http://www.hqcyw.cn/">畅游</a>
+                <a target="_blank" href="http://www.82222919.com/">深圳旅行社</a>
+                <a target="_blank" href="http://www.pintour.com/">驴友</a>
+                <a target="_blank" href="http://www.mengyoo.com/">国内旅游</a>
+                <a target="_blank" href="http://www.sfkkkkkkkkk.com/">沙发客</a>
+                <a target="_blank" href="http://www.57go.com/">四川旅游</a>
+                <a target="_blank" href="http://www.shidu.cn/">十渡旅游</a>
+                <a target="_blank" href="http://bengbu.cncn.com/">蚌埠旅游</a>
+                <a target="_blank" href="http://tt-ly.com/">深圳旅行社</a>
+                <a target="_blank" href="http://www.keyunzhan.com/chuzuche/">出租车电话</a>
+                <a target="_blank" href="http://www.zoutu.com/">云南旅游</a>
+                <a target="_blank" href="http://bj.58.com/duanzu/">北京日租房</a>
+                <a target="_blank" href="http://sh.to8to.com/">上海装修网</a>
+                <a target="_blank" href="http://www.tieyou.com/fuxiagaotie/">福厦高铁</a>
+                <a target="_blank" href="http://www.yidujia.com/">产权式酒店</a>
+                <a target="_blank" href="http://www.eptxw.com/">机票加盟</a>
+                <a target="_blank" href="http://www.4006777711.com/">酒店之星</a>
+                <a target="_blank" href="http://www.ctcnn.com/">劲旅网</a>
+            </dd>
+
+        </dl>
+        <div class="foot_btm">许可证号：<a target="_blank" href="http://www.miibeian.gov.cn" rel="nofollow">京ICP证140510号</a> &nbsp;&nbsp; <a href="http://www.anquan.org/s/www.xiaozhu.com" |="" name="mt8SMvYyRDI92b06nuDs8dPFapllCJYidqhM1WlOoGRZ9DWpbo" rel="nofollow" target="_blank">安全联盟</a> &nbsp;&nbsp; 京公网安备11010802010350号 &nbsp;&nbsp; 北京快跑信息科技有限公司
+        </div>
+    </div>
+
+    <input type="hidden" name="actionName" id="actionName" value="Front_Index"/>
+    <!-- Piwik -->
+    <noscript><p><img src="http://piwik.xiaozhu.com/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+    <!-- End Piwik Tracking Code -->
+    <input type="hidden" id="piwik_trigger" value="1">
+
+    <input type="hidden" id="pagetype" value="Front_Index">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/xzjs.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/xzcss.css" />
+    <script type="text/javascript" src="js/lazyload.js"></script>
+    <script type="text/javascript" src="js/xzim_v2.min.js"></script>
+
+</div>
+
+<div class="index_pop indexdialog" id="authenticationDialog" style="display:none;">
+    <a href="#ongo" class="pop_close_v2 closeDialog"></a>
+    <div class="xz_pop_T"><span class="icon_sfyz"></span>双方身份验证</div>
+    <p class="xz_pop_p">
+        <img class="fr" lazy_src="images/xz_ad_pic2.jpg" />
+        <span class="pop_p_T">为什么要进行身份验证？</span>
+        我们相信，彼此的信任是建立在使每个人放心的安全机制上。充分的身份验证机制，会保证我们平台更加安全可靠。
+    </p>
+    <p class="xz_pop_p">
+        <span class="pop_p_T">让房客无忧</span>
+        所有房东的手机号码、邮箱等都是真实可信的。并且我们拥有一套完善的验证机制，会人工审核房东的真实姓名、真实面孔、身份证等信息，现在大多数房东已经验证了身份，我们会致力于将此机制推广到全部房东中。
+    </p>
+    <p class="xz_pop_p">
+        <span class="pop_p_T">让房东无忧</span>
+        在线交易的房客都会经过三重实名验证：首先，我们会验证房客绑定的手机号码，其次，交易会绑定房客银行卡的实名身份，最重要的是房客都会通过国家二代身份证验证系统进行验证，来确保房客的真实性。
+    </p>
+    <p class="xz_pop_p">
+        <span class="pop_p_T">身份隐私如何保证？</span>
+        隐私权是用户的重要权利，我们非常重视用户的隐私权，承诺在任何情况下都会对用户的身份隐私进行保护。更多内容可以查看<a href="http://www.xiaozhu.com/help/privacy" target="_blank">《隐私保护声明》</a>
+    </p>
+</div><div class="index_pop indexdialog" id="transactionDialog" style="display:none;">
+    <a href="#ongo" class="pop_close_v2 closeDialog"></a>
+    <div class="xz_pop_T"><span class="icon_aqjy"></span>可能认识的人</div>
+    <p class="xz_pop_p">
+        <img class="fr" lazy_src="images/xz_ad_pic1.jpg" />
+        <span class="pop_p_T">线上交易才最安全！</span>
+        我们打造了安全可靠又灵活方便的第三方担保支付系统，而且支持多种付款和收款方式。房客不是直接支付给房东，而是由小猪代为担保，入住完成后才支付给房东。
+    </p>
+    <p class="xz_pop_p">
+        <span class="pop_p_T">保护房客的资金安全</span>
+        <strong>1、虚假房源可获赔：</strong>如果入住时发现房间和网上描述不符，投诉客服如情况属实，原订金全部退还，并赔偿房客首日房款。<br/>
+        <strong>2、无法入住有支援：</strong>如果入住时发现房东没有预留房间，投诉客服如情况属实，原订金全部退还，并赔偿房客首日房款；如果入住时发现联系不上房东，客服会帮助房客预订同等短租房或酒店，并补偿差价，保障当天正常入住。<br/>
+        <strong>3、乱收费用赔双倍：</strong>如果房东抬高房价，或者收取额外未约定的费用，向客服投诉后会保障给房客双倍赔偿。<br/>
+        <strong>4、取消订单不担心：</strong>如房客计划有变需取消入住、或提前退房，在我们第三方担保的机制下，保证房客在合理约定的违约金之外，顺利拿回剩余订金。
+    </p>
+    <p class="xz_pop_p">
+        <span class="pop_p_T">保护房东的资金安全</span>
+        <strong>1、取消订单无损失：</strong>因为在线交易会要求房客提前支付房费，如出现房客取消入住，或提前退房的违约情况，就可以按照房东交易规则约定比例收取合理的违约金，从而保障房东的利益。<br/>
+        <strong>2、不用担心收假钞：</strong>大额交易十分不方便，还担心会收到假钞，而使用我们的第三方担保支付系统便无需担心。
+    </p>
+</div><div class="index_pop indexdialog" id="protectionDialog" style="display:none;">
+    <a href="#ongo" class="pop_close_v2 closeDialog"></a>
+    <div class="xz_pop_T"><span class="icon_jshd"></span>可能认识的人</div>
+    <p class="xz_pop_p">
+        <img class="fr" src="images/xz_ad_pic4.jpg" />
+        <span class="pop_p_T">保障只是后盾</span>
+        小猪短租上线以来，已有数十万的房客完成入住，并且从未发生过不愉快的事件，但我们仍然充分理解您对住进一个陌生人家中的担忧，并为此做了大量工作来保障您的整个交易和入住安全。
+    </p>
+    <p class="xz_pop_p">
+        <span class="pop_p_T">房客保险</span>
+        房客通过在线交易的方式预订短租房，其中一位房客可获得小猪短租赠送的住宿意外险，推荐您可以为剩余房客购买，免除双方后顾之忧。<br/>更多内容可以查看<a href="http://www.xiaozhu.com/insurancedescription" target="_blank">《住宿意外险告知书》</a>
+    </p>
+    <p class="xz_pop_p">
+        <span class="pop_p_T">房东保障</span>
+        房客通过在线交易的方式预订短租房，在入住期间如出现房间内的财产遗失或者损坏的情况，由赔偿范围包括房屋、装修、家电、家具的《个人房东财产保障方案》为您保驾护航，最大可能的赔偿您的损失。<br/>
+        更多内容可以查看<a href="http://www.xiaozhu.com/propertyprotection" target="_blank">《个人房东财产保障方案》</a>
+    </p>
+</div><div class="index_pop indexdialog" id="commentDialog" style="display:none;">
+    <a href="#ongo" class="pop_close_v2 closeDialog"></a>
+    <div class="xz_pop_T"><span class="icon_dpxy"></span>点评积累信用</div>
+    <p class="xz_pop_p">
+        <img class="fr" src="images/xz_ad_pic3.jpg" />
+        <span class="pop_p_T">我们提倡点评</span>
+        有人情味的住宿需要真实的点评，让美好的回忆可以记录下来，这样可以传播给更多的好房东和好房客，让大家都可以参与进来，建立一个人与人可以充分信赖的环境。
+    </p>
+    <p class="xz_pop_p">
+        <span class="pop_p_T">点评是公平对等的</span>
+        房客通过在线交易预订短租房，可以对入住经历进行点评，这些点评可以帮助其他房客了解房间和房东。与此同时，房东也可以对房客进行点评，其他房东也可以根据这些点评了解到房客是否受欢迎。任何的点评，都只能由发布者自己删除。
+    </p>
+    <p class="xz_pop_p">
+        <span class="pop_p_T">激励好房东和好房客</span>
+        房东是否热情好客？房客是否广受欢迎？<br/>我们相信在真实可靠的点评机制下，不断积累的信用会赶走那些坏房东和坏房客，让真正懂得分享的好房东和好房客充盈整个平台。
+    </p>
+</div><div class="index_pop wx_pop indexdialog" id="focususDialog" style="display:none;">
+    <a href="#ongo" class="pop_close_v2 closeDialog"></a>
+    <div class="wx_pop_con fl wx_bor_R">
+        <span>讲述有人情味的故事，扫我吧</span>
+        <img lazy_src="images/wx_1.png" />
+        <span>小猪订阅号：xiaozhudz</span>
+    </div>
+    <div class="wx_pop_con fr">
+        <span>预订服务、优惠活动，扫我吧</span>
+        <img lazy_src="images/wx_2.png" />
+        <span>小猪服务号：xiaozhuduanzu</span>
+    </div>
+</div><div class="bg_black vediodialog" id="vedio1Dialog" style="display:none;">
+    <a href="#ongo" class="pop_close_v2 closVedioeDialog"></a>
+    <div class="marginT46" id="vedio1Content" style="width:880px;height:528px;"> </div>
+</div>
+<div class="bg_black vediodialog" id="vedio2Dialog" style="display:none;">
+    <a href="#ongo" class="pop_close_v2 closVedioeDialog"></a>
+    <div class="marginT46" id="vedio2Content"  style="width:880px;height:528px;"> </div>
+</div>
+<input type='hidden' id='defaultCityShowStr' value="请选择城市或目的地"/>
+<input type='hidden' id='defaultstartdate' value=""/>
+<input type='hidden' id='defaultenddate' value=""/>
+
+<script type="text/javascript" src="js/xzjs.js"></script>
+</body>
+</html>
